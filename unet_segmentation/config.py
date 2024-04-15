@@ -4,16 +4,16 @@ from datetime import datetime
 DATASET_NAME = "mnist_extended"
 PARENT_DIR = os.path.dirname(__file__)
 NUM_WORKERS = os.cpu_count()
-BATCH_SIZE = 32
+BATCH_SIZE = 8
 PIN_MEMORY = True
 SEED = 8
 NUM_CLASSES = 5
 
 TOTAL_SAMPLES = 1000
-TRAIN_VAL_SPLIT = 0.7
+TRAIN_VAL_SPLIT = 0.8
 
-LR_RATE = 0.001
-EPOCHS = 20
+LR_RATE = 0.0001
+EPOCHS = 50
 
 MODEL_LOG = "unet_test"
 
